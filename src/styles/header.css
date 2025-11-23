@@ -1,0 +1,51 @@
+.header {
+    width: 100%;
+    min-height: 250px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 40px 60px;
+    background: radial-gradient(circle at top left, #0b3377, #071a3a);
+}
+
+
+.imagem {
+    height: 600px;
+    width: 500px;
+    border-radius: 2rem;
+    object-fit: cover;
+    box-shadow: 0 0 30px rgba(94, 168, 229, 0.5);
+}
+.texto {
+    color: aliceblue;
+}
+.frase {
+    font-weight: 700;
+    font-size: 3rem;
+}
+.frase span {
+    color: #5EA8E5;
+}
+
+.botoes {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.botao {
+    padding: 2rem;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1.2rem;
+    background-color: #0A1C3A;
+    color: aliceblue;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.botao:hover {
+    transform: scale(1.05);
+    background-color: #11284d;
+    box-shadow: 0 0 20px rgba(94, 168, 229, 0.4);
+}

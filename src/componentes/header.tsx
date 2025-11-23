@@ -4,8 +4,8 @@ import "../styles/header.css"
 const Header = () => {
     return (
         <div className="header">
-            <div className="imagem">
-                <img src={PhotoMy} alt="Foto pessoal" />
+            <div>
+                <img className="imagem" src={PhotoMy} alt="Foto pessoal" />
             </div>
             <div className="texto">
                 <div className="frase">
