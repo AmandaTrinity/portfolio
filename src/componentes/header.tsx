@@ -15,9 +15,9 @@ const Header = () => {
                     <h1>Amanda Trinity</h1>
                 </div>
                 <div className="botoes">
-                    <button className="botao">Sobre Mim</button>
-                    <button className="botao">Projetos</button>
-                    <button className="botao">Contato</button>
+                    <a href="#sobre" className="botao">Sobre Mim</a>
+                    <a href="#projetos" className="botao">Projetos</a>
+                    <a href="#contato" className="botao">Contato</a>
                 </div>
             </div>
         </div>
