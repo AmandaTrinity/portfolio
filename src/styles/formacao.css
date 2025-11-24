@@ -1,0 +1,85 @@
+.formacao {
+    width: 100%;
+    padding: 60px 50px;
+    color: #e9eeff;
+    background: radial-gradient(circle at top left, #0a1c3a, #09111f);
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.coluna-esquerda {
+    padding: 50px 50px;
+}
+.tag span {
+    background: #174dad;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: white;
+}
+
+.curso {
+    font-size: 2.3rem;
+    margin-top: 20px;
+}
+
+.linha-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 12px 0;
+    font-size: 1.1rem;
+}
+
+.icone {
+    color: #82a5ff;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 30px;
+    border-radius: 16px;
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.card-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 22px;
+}
+
+.icone-card {
+    color: #b8ccff;
+}
+
+.card-item h3 {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.card-item p {
+    margin-top: 6px;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    opacity: 0.9;
+}
+
+.conteudos p {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 1rem;
+    margin: 6px 0;
+}
+
+.conteudos span {
+    color: #8db3ff;
+    font-size: 1.4rem;
+}
