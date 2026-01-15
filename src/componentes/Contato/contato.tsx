@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Github } from "lucide-react";
+import { Mail, Share2, Code } from "lucide-react";
 import "../../styles/contato.css";
 
 const Contato = () => {
@@ -18,11 +18,11 @@ const Contato = () => {
         </a>
 
         <a href="https://www.linkedin.com/in/amanda-trinity-6b377123b/" target="_blank" className="icon-wrapper">
-          <Linkedin size={26} />
+          <Share2 size={26} />
         </a>
 
         <a href="https://github.com/AmandaTrinity" target="_blank" className="icon-wrapper">
-          <Github size={26} />
+          <Code size={26} />
         </a>
       </div>
 
