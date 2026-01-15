@@ -1,43 +1,56 @@
 .header {
     width: 100%;
-    min-height: 250px;
+    min-height: 100vh;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr; /* Padrão para uma coluna (mobile) */
     align-items: center;
-    padding: 40px 60px;
+    padding: 30px 20px; /* Padding menor para mobile */
     background: radial-gradient(circle at top left, #0b3377, #071a3a);
+    gap: 2rem; /* Espaçamento entre a imagem e o bloco de texto */
 }
 
+.header > div:first-child {
+    max-width: 350px;
+    width: 90%;
+    justify-self: center;
+}
 
 .imagem {
-    height: 600px;
-    width: 500px;
+    height: 100%;
+    width: 100%;
     border-radius: 2rem;
     object-fit: cover;
     box-shadow: 0 0 30px rgba(94, 168, 229, 0.5);
 }
 .texto {
     color: aliceblue;
+    text-align: left; /* Centraliza o texto no mobile */
 }
+
 .frase {
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 1rem;
 }
 .frase span {
     color: #5EA8E5;
 }
 
+.nome {
+    font-weight: 900;
+    font-size: 1rem;
+}
 .botoes {
     display: flex;
-    justify-content: flex-start;
-    gap: 2rem;
+    justify-content: center; /* Centraliza os botões no mobile */
+    gap: 1rem;
+    flex-wrap: wrap; /* Permite que os botões quebrem a linha se necessário */
 }
 
 .botao {
-    padding: 2rem;
+    padding: 1rem 1.5rem; /* Padding menor para os botões no mobile */
     border-radius: 2rem;
     border: none;
-    font-size: 1.2rem;
+    font-size: 1rem; /* Fonte menor para os botões no mobile */
     background-color: #0A1C3A;
     color: aliceblue;
     cursor: pointer;
@@ -48,4 +61,26 @@
     transform: scale(1.05);
     background-color: #11284d;
     box-shadow: 0 0 20px rgba(94, 168, 229, 0.4);
+}
+
+/* Media Query para telas maiores (Desktop) */
+@media (min-width: 800px) {
+    .header {
+        grid-template-columns: repeat(2, 1fr); /* Volta para duas colunas */
+        padding: 40px 60px; /* Restaura o padding original */
+        text-align: left; /* Alinha o texto à esquerda */
+    }
+
+    .texto {
+        text-align: left;
+    }
+
+    .botoes {
+        justify-content: flex-start; /* Alinha os botões à esquerda */
+    }
+
+    .botao {
+        padding: 2rem; /* Restaura o padding original dos botões */
+        font-size: 1.2rem; /* Restaura o tamanho da fonte */
+    }
 }

@@ -1,8 +1,8 @@
-import Header from "./componentes/header"
-import Sobre from "./componentes/sobre"
-import Formacao from "./componentes/formacao"
-import { Projects  } from "./componentes/projetos"
-import Contato from "./componentes/contato"
+import Header from "./componentes/Header/header"
+import Sobre from "./componentes/Sobre/sobre"
+import Formacao from "./componentes/Formacao/formacao"
+import { Projects  } from "./componentes/Projetos/Projetos"
+import Contato from "./componentes/Contato/contato"
 
 const App = () => {
   return (

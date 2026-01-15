@@ -1,5 +1,5 @@
 import { MapPin, School, Building2 } from "lucide-react";
-import "../styles/formacao.css"
+import "../../styles/formacao.css"
 
 const Formacao = () => {
     return (
@@ -8,7 +8,7 @@ const Formacao = () => {
                 <div className="coluna-esquerda">
                     
                     <div>
-                        <span className="tag">Formação</span>
+                        <span className="tag-formacao">Formação</span>
                     </div>
 
                     <h2 className="curso">Ciência da Computação</h2>

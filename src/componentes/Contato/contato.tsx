@@ -1,5 +1,5 @@
 import { Mail, Linkedin, Github } from "lucide-react";
-import "../styles/contato.css";
+import "../../styles/contato.css";
 
 const Contato = () => {
   return (
@@ -17,7 +17,7 @@ const Contato = () => {
           <Mail size={26} />
         </a>
 
-        <a href="www.linkedin.com/in/amanda-trinity-6b377123b" target="_blank" className="icon-wrapper">
+        <a href="https://www.linkedin.com/in/amanda-trinity-6b377123b/" target="_blank" className="icon-wrapper">
           <Linkedin size={26} />
         </a>
 

@@ -1,5 +1,5 @@
-import PhotoMy from "../assets/my.jpeg"
-import "../styles/header.css"
+import PhotoMy from "../../assets/my.jpeg"
+import "../../styles/header.css"
 
 const Header = () => {
     return (
@@ -8,11 +8,11 @@ const Header = () => {
                 <img className="imagem" src={PhotoMy} alt="Foto pessoal" />
             </div>
             <div className="texto">
-                <div className="frase">
-                    <h2>"O SUCESSO É A SOMA DE PEQUENOS ESFORÇOS REPETIDOS"</h2>
-                </div>
                 <div className="nome">
-                    <h1>Amanda Trinity</h1>
+                    <h1>DESENVOLVEDORA FRONT-END</h1>
+                </div>
+                <div className="frase">
+                    <h2>Técninca em Desenvolvimento de Sistemas e Graduanda em Ciência da Computação no CIn/UFPE</h2>
                 </div>
                 <div className="botoes">
                     <a href="#sobre" className="botao">Sobre Mim</a>
