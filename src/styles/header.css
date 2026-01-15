@@ -2,9 +2,9 @@
     width: 100%;
     min-height: 100vh;
     display: grid;
-    grid-template-columns: 1fr; /* Padrão para uma coluna (mobile) */
+    grid-template-columns: 1fr;
     align-items: center;
-    padding: 30px 20px; /* Padding menor para mobile */
+    padding: 30px 20px;
     background: radial-gradient(circle at top left, #0b3377, #071a3a);
     gap: 2rem; /* Espaçamento entre a imagem e o bloco de texto */
 }
@@ -47,14 +47,15 @@
 }
 
 .botao {
-    padding: 1rem 1.5rem; /* Padding menor para os botões no mobile */
-    border-radius: 2rem;
+    padding: 0.9rem 1.3rem;
+    border-radius: 0.9rem;
     border: none;
-    font-size: 1rem; /* Fonte menor para os botões no mobile */
+    font-size: 1rem;
     background-color: #0A1C3A;
     color: aliceblue;
     cursor: pointer;
     transition: all 0.3s ease;
+    text-decoration: none;
 }
 
 .botao:hover {
@@ -66,9 +67,9 @@
 /* Media Query para telas maiores (Desktop) */
 @media (min-width: 800px) {
     .header {
-        grid-template-columns: repeat(2, 1fr); /* Volta para duas colunas */
-        padding: 40px 60px; /* Restaura o padding original */
-        text-align: left; /* Alinha o texto à esquerda */
+        grid-template-columns: repeat(2, 1fr);
+        padding: 40px 60px;
+        text-align: left;
     }
 
     .texto {
@@ -80,7 +81,7 @@
     }
 
     .botao {
-        padding: 2rem; /* Restaura o padding original dos botões */
-        font-size: 1.2rem; /* Restaura o tamanho da fonte */
+        padding: 1.2rem 1.4rem;
+        font-size: 1.05rem;
     }
 }
